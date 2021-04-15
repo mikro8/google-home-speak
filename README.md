@@ -14,7 +14,8 @@ promise resolves after (download time + audio duration + 200ms)
     
 # Installation
 ***(I might add it to npm/yarn later)***  
-npm install github:mikro8/google-home-speak
+~~npm install github:mikro8/google-home-speak~~
+npm install google-home-speak
 
 # Example
 ```js
