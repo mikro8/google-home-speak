@@ -7,13 +7,15 @@ Cast google translate voice to google home device
 has only one argument which is **ip: string**, this should be ip address of your google home  
 returns promise resolving as connected media reciver object (castv2-client lib)
 ## 2.speak
-**sends string to google translate gets the audio mime and sends it to initialized google home device**  
+**sends string to google translate, gets the audio mime and sends it to initialized google home device**  
 arguments are **text: string**, this is the sentence to say and **lang: string**, this is language in which is the text (default en)  
 returns promise resolving to object with info about played media   
 promise resolves after (download time + audio duration + 200ms)
     
-# Installation (I might add it to npm/yarn later)
-npm install github:mikro8/google-home-speak
+# Installation
+~~***(I might add it to npm/yarn later)***~~    
+~~npm install github:mikro8/google-home-speak~~  
+npm install google-home-speak
 
 # Example
 ```js
@@ -22,8 +24,6 @@ const googleHomeSpeak = require("google-home-speak");
 (async () => {
   const sc = new googleHomeSpeak();
   await sc.init("192.168.1.207");
-
-  // console.log(dd);
 
   const speak = [
     "Hello my name is bixby",
