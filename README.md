@@ -3,12 +3,12 @@ Cast google translate voice to google home device
 
 # Functions
 ## 1.init
-    initializes connection to your google home device
-    has only one argument which is ip address as string
-    returns promise resolving as connected media reciver object (castv2-client lib)
+initializes connection to your google home device
+has only one argument which is ip address as string
+returns promise resolving as connected media reciver object (castv2-client lib)
 ## 2.speak
-    sends string to google translate gets the audio mime and sends it to initialized google home device
-    arguments are text: string, this is the sentence to say and lang: string, this is language in which is the text (default en)
+sends string to google translate gets the audio mime and sends it to initialized google home device
+arguments are text: string, this is the sentence to say and lang: string, this is language in which is the text (default en)
     
 # Installation (I might add it to npm/yarn later)
 npm install github:mikro8/google-home-speak
