@@ -13,7 +13,7 @@ returns promise resolving to object with info about played media
 promise resolves after (download time + audio duration + 200ms)
     
 # Installation
-***(I might add it to npm/yarn later)***  
+~~***(I might add it to npm/yarn later)***~~    
 ~~npm install github:mikro8/google-home-speak~~  
 npm install google-home-speak
 
