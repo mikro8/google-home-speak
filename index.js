@@ -46,4 +46,6 @@ googleHomeSpeak.prototype.speak = function (text, lang) {
   });
 };
 
+//TO DO: implement working close connection function (cv2 one seems to be broken)
+
 module.exports = googleHomeSpeak;
