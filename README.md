@@ -33,7 +33,6 @@ const googleHomeSpeak = require("google-home-speak");
     "Ja mówię po polsku|pl",
     "я говорю по-русски|ru",
     "Vorbesc romaneste|ro",
-    "chuj chuj chuj|pl",
   ];
 
   for (let i = 0; i < speak.length; i++) {
