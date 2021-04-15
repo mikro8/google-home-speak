@@ -25,8 +25,6 @@ const googleHomeSpeak = require("google-home-speak");
   const sc = new googleHomeSpeak();
   await sc.init("192.168.1.207");
 
-  // console.log(dd);
-
   const speak = [
     "Hello my name is bixby",
     "Actually i was lying",
