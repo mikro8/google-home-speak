@@ -1,6 +1,6 @@
 {
   "name": "google-home-speak",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {

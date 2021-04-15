@@ -28,7 +28,7 @@ googleHomeSpeak.prototype.speak = function (text, lang) {
   if (typeof lang != "string")
     throw "lang argument must be undefined string example: 'de'";
   const url = googleTTS.getAudioUrl(text, {
-    lang: lang,
+    lang: lang || "en",
     slow: false,
     host: "https://translate.google.com",
   });
